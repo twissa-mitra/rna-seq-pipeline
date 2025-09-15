@@ -1,2 +1,13 @@
-# rna-seq-pipeline
-Reproducible RNA-seq analysis pipeline demo using public data. Includes QC (FastQC), alignment (STAR/HISAT2), quantification (featureCounts), and differential expression (DESeq2) with Python/R workflows.
+# RNA-seq Pipeline (QC → Alignment → Quantification → DE)
+
+This repo demonstrates a minimal, reproducible RNA-seq pipeline suitable for PhD/demo projects.  
+It covers:
+
+- **QC** with FastQC  
+- **Alignment** with HISAT2  
+- **Quantification** with featureCounts  
+- **Differential expression** with DESeq2  
+
+**Status:** setting up environment & data.  
+**Next:** download a small public dataset (GEO/SRA), run QC and alignment, push results.
+
