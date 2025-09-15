@@ -1,0 +1,13 @@
+# Large/raw files
+data/
+
+# Common outputs
+*.fastq
+*.fastq.gz
+*.fq
+*.sam
+*.bam
+*.bai
+*.html
+*.zip
+.DS_Store
