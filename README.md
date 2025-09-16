@@ -1,6 +1,6 @@
 # RNA-seq Pipeline (QC → Alignment → Quantification → DE)
 
-This repo demonstrates a minimal, reproducible RNA-seq pipeline suitable for PhD/demo projects.  
+This repo demonstrates a minimal, reproducible RNA-seq pipeline.  
 It covers:
 
 - **QC** with FastQC  
