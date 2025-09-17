@@ -1,0 +1,28 @@
+# OS / editor
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+
+# Raw data (keep paths light in git)
+data/*.fastq
+data/*.fastq.gz
+
+# Alignments & large intermediates
+aln/*.sam
+aln/*.bam
+aln/*.bam.bai
+aln/*.cram
+aln/*.cram.crai
+
+# Reference sequences & indexes (repro via README commands)
+ref/*.fa
+ref/*.fa.gz
+ref/*.fai
+ref/*.dict
+ref/*.ht2
+
+# FastQC bundles (HTML reports are okay to keep)
+qc/*_fastqc.zip
+
+# MultiQC raw data (keep HTML report)
+qc/multiqc/multiqc_data/
