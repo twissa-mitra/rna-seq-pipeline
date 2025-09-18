@@ -51,3 +51,21 @@ awk 'BEGIN{print "gene_id,gene_name,count"} {print $1","$2","$3}' \
 # MultiQC summary
 multiqc . -o qc/multiqc
 
+
+
+## Install & Run
+
+### 1) Install tools (Ubuntu/WSL)
+```bash
+bash scripts/install_tools.sh
+```
+
+### 2) Run the pipeline
+```bash
+THREADS=4 bash scripts/run_pipeline.sh
+```
+
+### Outputs
+- `qc/multiqc/multiqc_report.html`
+- `counts/yeast2.counts.with_names.csv`
+- Tool versions: `env/versions.txt`
